@@ -34,10 +34,14 @@
                         {{ __('Tentang') }}
                     </x-nav-link>
                 </div>
+<<<<<<< HEAD
                 <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-4 h-9 mx-8 px-8 border border-blue-500 hover:border-transparent rounded-full">
+=======
+                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 mx-8 px-8 border border-blue-500 hover:border-transparent rounded-full">
+>>>>>>> 63812681a4889af03015fbee547416f6cb00bda4
                 Daftar
                 </button>
-                <button class="bg-blue-500 hover:bg-blue-300 text-white font-bold  mt-4 h-9 px-8 rounded-full">
+                <button class="bg-blue-500 hover:bg-blue-300 text-white font-bold  mt-5 h-8 px-8 rounded-full">
                     Masuk
                 </button>
             </div>
