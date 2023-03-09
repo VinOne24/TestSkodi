@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                    <img src="{{ asset('/assets/img/logo 1.png') }}" width="50" height="50" style="margin-right:350px";> 
+                    <img src="{{ asset('/assets/img/logo 1.png') }}" width="50" height="50" style="margin-right:200px";> 
                     </a>
                 </div>
 
@@ -34,9 +34,9 @@
                         {{ __('Tentang') }}
                     </x-nav-link>
                 </div>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-  Button
-</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-4 h-9 mx-4 px-9 rounded-full">
+                    Button
+                </button>
             </div>
 
             <!-- Settings Dropdown -->
