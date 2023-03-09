@@ -29,13 +29,16 @@
                     </x-nav-link>
                 </div>
 
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex mx-8">
                     <x-nav-link :href="route('tentang')" :active="request()->routeIs('tentang')">
                         {{ __('Tentang') }}
                     </x-nav-link>
                 </div>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-4 h-9 mx-4 px-9 rounded-full">
-                    Button
+                <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white mt-4 h-9 mx-8 px-8 border border-blue-500 hover:border-transparent rounded-full">
+                Daftar
+                </button>
+                <button class="bg-blue-500 hover:bg-blue-300 text-white font-bold  mt-4 h-9 px-8 rounded-full">
+                    Masuk
                 </button>
             </div>
 
