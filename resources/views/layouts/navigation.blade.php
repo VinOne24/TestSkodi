@@ -6,11 +6,12 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                    <img src="{{ asset('/assets/img/logo 1.png') }}">
+                    <img src="{{ asset('/assets/img/logo 1.png') }}" width="50px" height="50px">
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
+                <div class="max-w-screen-sm">
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Langganan') }}
@@ -34,6 +35,8 @@
                         {{ __('Tentang') }}
                     </x-nav-link>
                 </div>
+                <!-- </div> -->
+                
             </div>
 
             <!-- Settings Dropdown -->
