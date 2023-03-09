@@ -23,9 +23,17 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/home', function () {
-    return view('home');
-})->middleware(['auth', 'verified'])->name('home');
+Route::get('/kelas', function () {
+    return view('kelas');
+})->middleware(['auth', 'verified'])->name('kelas');
+
+Route::get('/event', function () {
+    return view('event');
+})->middleware(['auth', 'verified'])->name('event');
+
+Route::get('/tentang', function () {
+    return view('tentang');
+})->middleware(['auth', 'verified'])->name('tentang');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
