@@ -34,7 +34,7 @@
                         {{ __('Tentang') }}
                     </x-nav-link>
                 </div>
-                <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white mt-4 h-9 mx-8 px-8 border border-blue-500 hover:border-transparent rounded-full">
+                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-4 h-9 mx-8 px-8 border border-blue-500 hover:border-transparent rounded-full">
                 Daftar
                 </button>
                 <button class="bg-blue-500 hover:bg-blue-300 text-white font-bold  mt-4 h-9 px-8 rounded-full">
