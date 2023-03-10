@@ -107,8 +107,8 @@ return [
     | localized telephone numbers, street address information and more.
     |
     */
-
-    'faker_locale' => 'en_US',
+    // setup .env/FAKER_LOCALE = id_ID
+    'faker_locale' => env('FAKER_LOCALE', 'en_US'),
 
     /*
     |--------------------------------------------------------------------------
