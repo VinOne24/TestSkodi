@@ -15,20 +15,41 @@
                         <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
                         <h3 class="text-base font-poppins font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan<br>
                         <span><h3 class="text-base font-poppins font-bold ">#digitalisasibangsa</h3></span></h3>
-                        
-                        
                     </div>
                 </div>
 
-                <div class="tabs-menu">
+                <div class="side-menu">
                     <ul x-ref="tabs">
                         <li class="btn active" @click="selectTab($event, 'a')" >Kids</li>
                         <li class="btn" @click="selectTab($event, 'b')">Junior</li>
                         <li class="btn" @click="selectTab($event, 'c')">Professional</li>
                     </ul>
+                </div>                
 
-                </div>
             </div>
         </div>
     </div>
+
 </x-app-layout>
+
+
+<!-- <script>
+    const navLinks = document.querySelectorAll('.side-menu');
+
+    navLinks.forEach(navLink => {
+        navLink.addEventListener('click', () => {
+            if (!navLink.classList.contains('side-menu--active')) {
+                navLink.forEach(link => link.classList.remove('side-menu--active', 'side-menu--open'));
+                navLink.classList.add('side-menu--active', 'side-menu--open');
+                sessionStorage.setItem('selectedNav', navLink.getAttribute('data-target'));
+            }
+        });
+    });
+
+    const selectedNav = sessionStorage.getItem('selectedNav');
+    if(selectedNav) {
+        const navLink = document.querySelector(`[data-target="${selectedNav}"]`);
+        navLink.classList.add('side-menu--active', 'side-menu--open');
+    }
+</script> -->
+
