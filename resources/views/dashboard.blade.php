@@ -109,7 +109,7 @@
 
                     </div>
                 </div>
-                
+
                 <!-- What we make different -->
                 <div class="text-2xl font-bold flex justify-center py-16">
                         <h3>Apa Yang membuat kami berbeda</h3>
@@ -187,7 +187,7 @@
 
                     </div>
                 </div>
-                
+
                 <!-- clearr -->
 
                 <!-- Our Event -->
@@ -211,6 +211,9 @@
                             Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
                         </div>
                     </div>
+                </div>
+                <div class="flex justify-center pt-3 pb-12">
+                    <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
                 </div>
                 <!-- Learning Path -->
 
