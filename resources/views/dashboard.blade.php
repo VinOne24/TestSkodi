@@ -20,27 +20,27 @@
 
 .diva{
     width: 100%;
-    height: auto; 
+    height: auto;
     display: block;
 }
 
 .divb{
     display: none;
     width: 100%;
-    height: auto;   
+    height: auto;
 }
 .divc{
     display: none;
     width: 100%;
-    height: auto;   
+    height: auto;
 }
 </style>
-    
+
 <div class="py-12">
     <div class="max-w-full mx-auto sm:px-6 lg:px-8">
         <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
             <div class="p-6 text-gray-900 dark:text-gray-100">
-                
+
                 <!-- Atas -->
                 <div class="grid grid-cols-2 gap-2">
                     <div class="float-left ml-20 py-9">
@@ -63,13 +63,13 @@
                             Kids
                         </button>
                         <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divb">
-                            Junior 
+                            Junior
                         </button>
                         <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divc">
                             Professional
                         </button>
                     </div>
-                    
+
                     <div class="grid grid-cols-1 gap-2">
                         <!-- kids -->
                         <div class="diva" id="diva">
@@ -114,7 +114,7 @@
                         <h3>Apa Yang membuat kami berbeda</h3>
                     </div>
 
-                
+
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-start justify-center drop-shadow-xl" >
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
@@ -183,10 +183,10 @@
                                 <h3 class="text-sm font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
                 <!-- clearr -->
 
                 <!-- Our Event -->
@@ -194,7 +194,19 @@
                 <!-- Our Event -->
 
                 <!-- Learning Path -->
-                    <!-- .... -->
+                <div class="pl-6">
+                    <div class="font-semibold text-base text-green-400">
+                        <p>Learning Path</p>
+                    </div>
+                    <div class="font-semibold text-3xl">
+                        <p>Alur Belajar di Sekolah<br> Koding Indonesia</p>
+                    </div>
+                    <div class="text-base text-base font-normal text-base">
+                        <div class="object-contain pr-12">
+                            Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
+                        </div>
+                    </div>
+                </div>
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
@@ -208,8 +220,8 @@
                     <div class="text-4xl font-bold py-12 leading-snug">
                         <h5>Coba aja dulu !</h5>
                         <h3 class="text-base font-light leading-normal py-4">Mau coba ikut kelas tanpa harus bayar dulu ? tentu
-                            <br>saja bisa ! kamu bisa mengikuti program free trial 
-                            <br>kelas secara gratis, dan program ini berlaku untuk 
+                            <br>saja bisa ! kamu bisa mengikuti program free trial
+                            <br>kelas secara gratis, dan program ini berlaku untuk
                             <br>semua kelas yang ada di Sekolah Koding Indonesia
                         </h3>
                     </div>
