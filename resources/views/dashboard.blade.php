@@ -59,10 +59,10 @@
                         <h3>Program dan kelas berdasarkan kemampuan</h3>
                     </div>
                     <div class="flex justify-between bg-gray-400 rounded-full h-8 mb" >
-                        <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-24 rounded-full" id="btn_diva">
+                        <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-20 rounded-full" id="btn_diva">
                             Kids
                         </button>
-                        <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-24 rounded-full" id="btn_divb">
+                        <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-20 rounded-full" id="btn_divb">
                             Junior 
                         </button>
                         <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-20 rounded-full" id="btn_divc">
