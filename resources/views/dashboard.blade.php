@@ -59,7 +59,7 @@
                     <div class="text-2xl font-bold leading-snug flex justify-center h-20">
                         <h3>Program dan kelas berdasarkan kemampuan</h3>
                         </div>
-                            <div class="flex justify-between bg-gray-200 rounded-full h-8 mb" >
+                            <div class="flex justify-between bg-gray-400 rounded-full h-8 mb" >
 
                                 <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-24 rounded-full" id="btn_diva">
                                 Kids
@@ -89,24 +89,24 @@
                             </div>
                             <!-- junior -->
                             <div class="divb" id="divb">
-                                <div class="float-right">
-                                    <img  src="{{ asset('/assets/img/orang 2.svg') }}">
+                                <div class="float-right object-contain h-80 w-80 mt-8">
+                                <img  src="{{ asset('/assets/img/orang.png') }}">
                                 </div>
-                                <div class="text-5xl font-bold py-9 leading-snug">
-                                <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
-                                <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan<br>
-                                <span><h3 class="text-base font-bold ">#digitalisasibangsa</h3></span></h3>
-                                </div>
+                                    <div class="text-2xl font-bold py-9">
+                                        <h5>Coding For Junior</h5>
+                                        <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                                        <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
+                                    </div>
                             </div>
                             <!-- pro -->
                             <div class="divc" id="divc">
-                                <div class="float-right ">
-                                <img  src="{{ asset('/assets/img/orang.png') }}">
+                                <div class="float-right object-contain h-80 w-80 mt-8">
+                                <img  src="{{ asset('/assets/img/orang 2.svg') }}">
                                 </div>
-                                    <div class="text-5xl font-bold py-9 leading-snug">
-                                    <h5>Coding For Kids</h5>
-                                    <h3 class="text-base font-light py-2 leading-normal">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
-                                    <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full"><br>Daftar sekarang</button></h3>
+                                    <div class="text-2xl font-bold py-9">
+                                        <h5>Coding For Pro</h5>
+                                        <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                                        <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
                                     </div>
                             </div>
 
