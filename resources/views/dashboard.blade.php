@@ -109,48 +109,85 @@
 
                     </div>
                 </div>
+                <!-- What we make different -->
                 <div class="text-2xl font-bold leading-snug flex justify-center py-8">
                         <h3>Apa Yang membuat kami berbeda</h3>
                     </div>
-                <!-- What we make different -->
-                <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center" >
-                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 ">
-                        <div class="bg-gray-200 max-w-sm  rounded-lg h-32 w-96 p-5">
-                            <h5>Mentor Berpengalaman</h5>
-                            <h3 class="text-base font-light py-4 leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya.
+
+                
+                <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-start justify-center drop-shadow-xl" >
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
+
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                            <div class="float-left h-12 w-12 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            </div>
+                            <div class="text-1xl font-bold py-7">
+                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
+                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                            </div>
                         </div>
-                        <div>
-                        <div>
-                            <h5>Coding For Pro</h5>
-                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                            <div class="float-left h-12 w-12 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            </div>
+                            <div class="text-1xl font-bold py-7">
+                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
+                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                            </div>
                         </div>
+
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                            <div class="float-left h-12 w-12 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            </div>
+                            <div class="text-1xl font-bold py-7">
+                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
+                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                            </div>
                         </div>
-                        <div>
-                        <div>
-                            <h5>Coding For Pro</h5>
-                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+
+                    </div>
+                </div>
+
+                <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center py-16 drop-shadow-xl" >
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
+
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                            <div class="float-left h-12 w-12 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            </div>
+                            <div class="text-1xl font-bold py-7">
+                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
+                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                            </div>
                         </div>
+
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                            <div class="float-left h-12 w-12 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            </div>
+                            <div class="text-1xl font-bold py-7">
+                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
+                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                            </div>
                         </div>
-                        <div>
-                        <div>
-                            <h5>Coding For Pro</h5>
-                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                            <div class="float-left h-12 w-12 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            </div>
+                            <div class="text-1xl font-bold py-7">
+                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
+                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                            </div>
                         </div>
-                        </div>
-                        <div>
-                        <div>
-                            <h5>Coding For Pro</h5>
-                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
-                        </div>
-                        </div>
-                        <div><div>
-                            <h5>Coding For Pro</h5>
-                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
-                        </div></div>
+                        
                     </div>
                 </div>
                 
-                <!-- What we make different -->
+                <!-- clearr -->
 
                 <!-- Our Event -->
                     <!-- ....  -->
