@@ -109,9 +109,47 @@
 
                     </div>
                 </div>
-
+                <div class="text-2xl font-bold leading-snug flex justify-center py-8">
+                        <h3>Apa Yang membuat kami berbeda</h3>
+                    </div>
                 <!-- What we make different -->
-                    <!-- ... -->
+                <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center" >
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 ">
+                        <div class="bg-gray-200 max-w-sm  rounded-lg h-32 w-96 p-5">
+                            <h5>Mentor Berpengalaman</h5>
+                            <h3 class="text-base font-light py-4 leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya.
+                        </div>
+                        <div>
+                        <div>
+                            <h5>Coding For Pro</h5>
+                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                        </div>
+                        </div>
+                        <div>
+                        <div>
+                            <h5>Coding For Pro</h5>
+                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                        </div>
+                        </div>
+                        <div>
+                        <div>
+                            <h5>Coding For Pro</h5>
+                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                        </div>
+                        </div>
+                        <div>
+                        <div>
+                            <h5>Coding For Pro</h5>
+                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                        </div>
+                        </div>
+                        <div><div>
+                            <h5>Coding For Pro</h5>
+                            <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                        </div></div>
+                    </div>
+                </div>
+                
                 <!-- What we make different -->
 
                 <!-- Our Event -->
