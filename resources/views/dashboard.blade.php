@@ -24,7 +24,17 @@
                         <li class="btn" @click="selectTab($event, 'b')">Junior</li>
                         <li class="btn" @click="selectTab($event, 'c')">Professional</li>
                     </ul>
-                </div>                
+                </div>
+
+
+                <div class="flex justify-center">
+                    <button id="dark-mode-toggle" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-white">
+                        Click This
+                    </button>
+                </div>
+                
+                
+
 
             </div>
         </div>

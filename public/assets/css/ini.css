@@ -1,0 +1,8 @@
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-gray-700 {
+    background-color: #4A5568;
+  }
+  .dark\:hover\:bg-gray-600:hover {
+    background-color: #2D3748;
+  }
+}
