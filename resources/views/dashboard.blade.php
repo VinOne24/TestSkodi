@@ -180,7 +180,7 @@
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                                <h3 class="text-sm font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
                             </div>
                         </div>
                         
@@ -198,7 +198,25 @@
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
-                    <!-- .... -->
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-center drop-shadow-xl bg-gray-200" >
+                    <div class=" flex justify-start ">
+
+                    <div class="grid grid-cols-2 gap-2">
+                    <div class="float-left ml-20 py-9">
+                    <iframe class="w-full aspect-video ..." src="https://youtu.be/dQw4w9WgXcQ"></iframe>
+                    </div>
+                    <div class="text-4xl font-bold py-12 leading-snug">
+                        <h5>Coba aja dulu !</h5>
+                        <h3 class="text-base font-light leading-normal py-4">Mau coba ikut kelas tanpa harus bayar dulu ? tentu
+                            <br>saja bisa ! kamu bisa mengikuti program free trial 
+                            <br>kelas secara gratis, dan program ini berlaku untuk 
+                            <br>semua kelas yang ada di Sekolah Koding Indonesia
+                        </h3>
+                    </div>
+                </div>
+
+                    </div>
+                </div>
                 <!-- Coba aja dulu -->
 
                 <!-- What they say about us -->
