@@ -37,16 +37,16 @@
 </style>
     
 <div class="py-12">
-    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+    <div class="max-w-full mx-auto sm:px-6 lg:px-8">
         <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
             <div class="p-6 text-gray-900 dark:text-gray-100">
                 
                 <!-- Atas -->
                 <div class="grid grid-cols-2 gap-2">
-                    <div class="float-left ">
+                    <div class="float-left ml-20 py-9">
                     <img  src="{{ asset('/assets/img/orang.png') }}">
                     </div>
-                    <div class="text-5xl font-bold py-9 leading-snug">
+                    <div class="text-4xl font-bold py-9 leading-snug">
                         <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
                         <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan
                         <span><h3 class="text-base font-bold ">#digitalisasibangsa</h3></span></h3>
@@ -58,14 +58,14 @@
                     <div class="text-2xl font-bold flex justify-center h-20">
                         <h3>Program dan kelas berdasarkan kemampuan</h3>
                     </div>
-                    <div class="flex justify-between bg-gray-100 text-blue-300 h-8 rounded-full" >
-                        <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-20 rounded-full" id="btn_diva">
+                    <div class="flex justify-between bg-gray-50 shadow-xl text-sky-600 h-8 rounded-full" >
+                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_diva">
                             Kids
                         </button>
-                        <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-20 rounded-full" id="btn_divb">
+                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divb">
                             Junior 
                         </button>
-                        <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-20 rounded-full" id="btn_divc">
+                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divc">
                             Professional
                         </button>
                     </div>
@@ -79,7 +79,7 @@
                             <div class="text-2xl font-bold py-9">
                                 <h5>Coding For Kids</h5>
                                 <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
-                                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
+                                <button class="bg-transparent hover:bg-blue-500 text-sky-600 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
                             </div>
                         </div>
 
