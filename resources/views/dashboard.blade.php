@@ -219,8 +219,8 @@
                     <div class=" flex justify-start ">
 
                     <div class="grid grid-cols-2 gap-2">
-                    <div class="float-left ml-20 py-9">
-                    <iframe class="w-full aspect-video mx-6" src="https://youtu.be/dQw4w9WgXcQ"></iframe>
+                    <div class="float-left ml-4 py-9">
+                    <iframe class="w-full aspect-video" src="https://youtu.be/dQw4w9WgXcQ"></iframe>
                     </div>
                     <div class="text-4xl font-bold py-12 leading-snug mx-24">
                         <h5>Coba aja dulu !</h5>
