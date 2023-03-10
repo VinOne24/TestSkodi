@@ -1,15 +1,15 @@
 <nav x-data="{ open: false }" class="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 shadow-xl">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 shadow-xl">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center">
+                <div class="shrink-0 flex items-center mx-28">
                     <a href="{{ route('dashboard') }}">
-                    <img src="{{ asset('/assets/img/logo 1.png') }}" width="50" height="50" style="margin-right:200px";> 
+                    <img src="{{ asset('/assets/img/logo 1.png') }}" width="50" height="50" ;> 
                     </a>
                     <!-- dark mode -->
-                    <div class=" ml-2">
+                    <div class=" mx-16">
                         <button type="button" x-bind:class="darkMode ? 'bg-indigo-500' : 'bg-gray-200'"
                             x-on:click="darkMode = !darkMode"
                             class="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
@@ -68,8 +68,8 @@
                         {{ __('Tentang') }}
                     </x-nav-link>
                 </div>
-                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 mx-8 px-8 border border-blue-500 hover:border-transparent rounded-full">
-                Daftar
+                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 mx-4 px-8 border border-blue-500 hover:border-transparent rounded-full">
+                    Daftar
                 </button>
                 <button class="bg-blue-500 hover:bg-blue-300 text-white font-bold  mt-5 h-8 px-8 rounded-full">
                     Masuk

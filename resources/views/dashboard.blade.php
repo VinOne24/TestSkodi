@@ -55,10 +55,10 @@
 
                 <!-- 3 tombol -->
                 <div class="main_container py-9">
-                    <div class="text-2xl font-bold leading-snug flex justify-center h-20">
+                    <div class="text-2xl font-bold flex justify-center h-20">
                         <h3>Program dan kelas berdasarkan kemampuan</h3>
                     </div>
-                    <div class="flex justify-between bg-gray-400 rounded-full h-8 mb" >
+                    <div class="flex justify-between bg-gray-100 text-blue-300 h-8 rounded-full" >
                         <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-20 rounded-full" id="btn_diva">
                             Kids
                         </button>
