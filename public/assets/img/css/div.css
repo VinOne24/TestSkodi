@@ -1,0 +1,45 @@
+.main_container{
+    margin: 15px auto;
+    background: #efefef;
+    width: 300px;
+    height: 200px;
+}
+
+.buttons{
+    display: flex;
+    gap: 2px;
+}
+
+button{
+    border: none;
+    background: #f3f300;
+    width: 50px;
+    height: 25px;
+}
+
+button:hover{
+    border: none;
+    background: #b3b344;
+    width: 50px;
+    height: 25px;
+}
+
+.blocks{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.diva{
+    width: 100%;
+    height: auto;
+    background: green;   
+    display: block;
+}
+
+.divb{
+    display: none;
+    width: 100%;
+    height: auto;
+    background: red;   
+}
