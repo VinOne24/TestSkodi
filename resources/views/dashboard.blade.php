@@ -48,17 +48,17 @@
                     </div>
                     <div class="text-5xl font-bold py-9 leading-snug">
                         <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
-                        <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan<br>pendidikan SD usia 5-10 Tahun
+                        <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan
                         <span><h3 class="text-base font-bold ">#digitalisasibangsa</h3></span></h3>
                     </div>
                 </div>
 
                 <!-- 3 tombol -->
                 <div class="main_container py-9">
-                    <div class="text-2xl font-bold leading-snug flex justify-center h-20">
+                    <div class="text-2xl font-bold flex justify-center h-20">
                         <h3>Program dan kelas berdasarkan kemampuan</h3>
                     </div>
-                    <div class="flex justify-between bg-gray-400 rounded-full h-8 mb" >
+                    <div class="flex justify-between bg-gray-100 text-blue-300 h-8 rounded-full" >
                         <button class="bg-transparent hover:bg-blue-500 font-bold h-8 px-20 rounded-full" id="btn_diva">
                             Kids
                         </button>
