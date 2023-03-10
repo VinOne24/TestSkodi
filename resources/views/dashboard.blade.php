@@ -109,8 +109,9 @@
 
                     </div>
                 </div>
+                
                 <!-- What we make different -->
-                <div class="text-2xl font-bold leading-snug flex justify-center py-8">
+                <div class="text-2xl font-bold flex justify-center py-16">
                         <h3>Apa Yang membuat kami berbeda</h3>
                     </div>
 
@@ -118,33 +119,33 @@
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-start justify-center drop-shadow-xl" >
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
-                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                                <h3 class="text-sm py-2 font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
-                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                                <h5 class="mx-14 py-1" >Persiapan Portofolio</h5>
+                                <h3 class="text-sm py-2 font-light leading-normal">Pada saat ujian akhir, siswa akan diajak untuk<br>mempersiapkan portofolio untuk masuk ke<br>dunia kerja.</h3>
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
-                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                                <h5 class="mx-14 py-1" >Tugas dan Kuis</h5>
+                                <h3 class="text-sm py-2 font-light leading-normal">Dalam proses belajar akan ada tugas dan<br>kuis untuk melatih dan meningkatkan skill<br>kamu.</h3>
                             </div>
                         </div>
 
@@ -154,43 +155,46 @@
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center py-16 drop-shadow-xl" >
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
-                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
-                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                                <h5 class="mx-14 py-1" >Akses Permanen</h5>
+                                <h3 class="text-sm py-2 font-light leading-normal">Kamu dapat mengakses materi dan video<br>learning kapan saja dan dimana saja, materi<br>dan video learning dapat diakses kembali jika<br>kelas telah selesai.</h3>
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
-                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-base font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                                <h5 class="mx-14 py-1" >Kelas Offline dan Online</h5>
+                                <h3 class="text-sm py-2 font-light leading-normal">Kamu akan mengikuti pembelajaran offline<br>dan online.</h3>
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-lg">
+                        <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
-                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-sm font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                                <h5 class="mx-14 py-1" >Sertifikat Resmi</h5>
+                                <h3 class="text-sm py-2 font-light leading-normal">Setelah kelas berakhir kamu akan<br>mendapatkan sertifikat resmi dari Sekolah<br>Koding Indonesia.</h3>
                             </div>
                         </div>
                         
                     </div>
                 </div>
                 
-                <!-- clearr -->
 
                 <!-- Our Event -->
-                    <!-- ....  -->
+                <div>
+                    <h2>Event Kami</h2>
+                    <h3>Bootcamp Offline Mobile App<br>Dev using Flutter & Dart</h3>
+                    <p></p>
+                </div>
                 <!-- Our Event -->
 
                 <!-- Learning Path -->
