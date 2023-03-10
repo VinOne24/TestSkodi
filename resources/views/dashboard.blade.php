@@ -215,14 +215,14 @@
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
-                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-center drop-shadow-xl bg-gray-200" >
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-start drop-shadow-xl bg-gray-200" >
                     <div class=" flex justify-start ">
 
                     <div class="grid grid-cols-2 gap-2">
                     <div class="float-left ml-20 py-9">
-                    <iframe class="w-full aspect-video ..." src="https://youtu.be/dQw4w9WgXcQ"></iframe>
+                    <iframe class="w-full aspect-video mx-6" src="https://youtu.be/dQw4w9WgXcQ"></iframe>
                     </div>
-                    <div class="text-4xl font-bold py-12 leading-snug">
+                    <div class="text-4xl font-bold py-12 leading-snug mx-24">
                         <h5>Coba aja dulu !</h5>
                         <h3 class="text-base font-light leading-normal py-4">Mau coba ikut kelas tanpa harus bayar dulu ? tentu
                             <br>saja bisa ! kamu bisa mengikuti program free trial
