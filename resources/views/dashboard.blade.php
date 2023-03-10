@@ -48,7 +48,7 @@
                     </div>
                     <div class="text-5xl font-bold py-9 leading-snug">
                         <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
-                        <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan<br>pendidikan SD usia 5-10 Tahun
+                        <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan
                         <span><h3 class="text-base font-bold ">#digitalisasibangsa</h3></span></h3>
                     </div>
                 </div>
