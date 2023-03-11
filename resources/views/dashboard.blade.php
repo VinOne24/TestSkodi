@@ -344,13 +344,13 @@
 
     const activeBtnClass = (id=null) => {
         let btnClass = document.querySelectorAll(".btn_kelas");
-        btnClass.forEach((v) => {
-            console.log(v.id);
-            if(v.id ==id){
-                let div_btn = document.getElementById(v.id);
+        btnClass.forEach((i) => {
+            console.log(i.id);
+            if(i.id ==id){
+                let div_btn = document.getElementById(i.id);
                 div_btn.classList.add('bg-sky-200');
             }else {
-                let div_btn = document.getElementById(v.id);
+                let div_btn = document.getElementById(i.id);
                 div_btn.classList.remove('bg-sky-200');
             }
         })
