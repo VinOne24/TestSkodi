@@ -42,16 +42,19 @@
             <div class="p-6 text-gray-900 dark:text-gray-100">
 
                 <!-- Atas -->
-                <div class="grid grid-cols-2 gap-2">
-                    <div class="float-left ml-20 py-9">
-                    <img  src="{{ asset('/assets/img/orang.png') }}">
-                    </div>
-                    <div class="text-4xl font-bold py-9 leading-snug">
-                        <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
-                        <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan
-                        <span><h3 class="text-base font-bold ">#digitalisasibangsa</h3></span></h3>
+                <div class="container mx-auto sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-2 gap-2">
+                        <div class="float-left ml-20 py-9">
+                        <img  src="{{ asset('/assets/img/orang.png') }}">
+                        </div>
+                        <div class="text-4xl font-bold py-9 leading-snug">
+                            <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
+                            <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan
+                            <span><h3 class="text-base font-bold ">#digitalisasibangsa</h3></span></h3>
+                        </div>
                     </div>
                 </div>
+                
 
                 <!-- 3 tombol -->
                 <div class="main_container py-9">
@@ -191,7 +194,7 @@
                 <!-- clearr -->
 
                 <!-- Our Event -->
-                <div class="main-container">
+                <div class="container mx-auto sm:px-6 lg:px-8">
                     <div class="grid grid-cols-1 gap-2 ">
                         <div class="pl-6 pt-56">
                             <div>
@@ -218,22 +221,25 @@
                 <!-- Our Event -->
 
                 <!-- Learning Path -->
-                <div class="pl-6">
-                    <div class="font-semibold text-base text-green-400">
-                        <p>Learning Path</p>
-                    </div>
-                    <div class="font-semibold text-3xl">
-                        <p>Alur Belajar di Sekolah<br> Koding Indonesia</p>
-                    </div>
-                    <div class="text-base text-base font-normal text-base">
-                        <div class="object-contain pr-12">
-                            Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
+                <div class="container mx-auto sm:px-6 lg:px-8">
+                    <div class="pl-6">
+                        <div class="font-semibold text-base text-green-400">
+                            <p>Learning Path</p>
+                        </div>
+                        <div class="font-semibold text-3xl">
+                            <p>Alur Belajar di Sekolah<br> Koding Indonesia</p>
+                        </div>
+                        <div class="text-base text-base font-normal text-base">
+                            <div class="object-contain pr-12">
+                                Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
+                            </div>
                         </div>
                     </div>
+                    <div class="flex justify-center pt-3 pb-12">
+                        <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
+                    </div>
                 </div>
-                <div class="flex justify-center pt-3 pb-12">
-                    <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
-                </div>
+                
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
