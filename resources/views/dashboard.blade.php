@@ -82,13 +82,13 @@
                         <h3>Program dan kelas berdasarkan kemampuan</h3>
                     </div>
                     <div class="flex justify-between bg-gray-50 shadow-xl text-sky-600 h-8 rounded-full" >
-                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_diva">
+                        <button class="btn_kelas hover:bg-sky-200 font-medium h-8 px-20 rounded-full bg-sky-200" id="btn_diva">
                             Kids
                         </button>
-                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divb">
+                        <button class="btn_kelas hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divb">
                             Junior
                         </button>
-                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divc">
+                        <button class="btn_kelas hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divc">
                             Professional
                         </button>
                     </div>
@@ -144,11 +144,11 @@
 
                         <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                                <img class="mx-8" src="{{ asset('/assets/img/orang.png') }}">
                             </div>
-                            <div class="text-1xl font-bold py-7">
-                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-sm py-2 font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                            <div class="text-1xl font-bold py-7 px-auto">
+                                <h5 class="mx-8 py-1" >Mentor Berpengalaman </h5>
+                                <h3 class="text-sm mx-2 py-2 font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
                             </div>
                         </div>
 
@@ -309,25 +309,52 @@
     var divc = document.getElementById("divc");
 
     //Menambahkan event listener untuk setiap tombol
-    btn_diva.addEventListener('click',()=>{
+    btn_diva.addEventListener('click',(e)=>{
         diva.style.display='block';
         divb.style.display='none';
         divc.style.display='none';
+        activeBtnClass(e.target.id);
 
     });
 
-    btn_divb.addEventListener('click',()=>{
+    btn_divb.addEventListener('click',(e)=>{
         diva.style.display='none';
         divb.style.display='block';
         divc.style.display='none';
 
+        activeBtnClass(e.target.id);
+
+        // btn_diva.classList.remove('bg-sky-300');
+        // btn_divb.classList.add('bg-sky-300');
+        // btn_divc.classList.remove('bg-sky-300');
+
     });
-    btn_divc.addEventListener('click',()=>{
+    btn_divc.addEventListener('click',(e)=>{
         diva.style.display='none';
         divb.style.display='none';
         divc.style.display='block';
 
+        activeBtnClass(e.target.id);
+
+        // btn_diva.classList.remove('bg-sky-300');
+        // btn_divb.classList.remove('bg-sky-300');
+        // btn_divc.classList.add('bg-sky-300');
+
     });
+
+    const activeBtnClass = (id=null) => {
+        let btnClass = document.querySelectorAll(".btn_kelas");
+        btnClass.forEach((v) => {
+            console.log(v.id);
+            if(v.id ==id){
+                let div_btn = document.getElementById(v.id);
+                div_btn.classList.add('bg-sky-200');
+            }else {
+                let div_btn = document.getElementById(v.id);
+                div_btn.classList.remove('bg-sky-200');
+            }
+        })
+    }
 </script>
 
 
