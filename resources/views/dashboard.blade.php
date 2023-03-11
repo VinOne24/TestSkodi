@@ -191,25 +191,30 @@
                 <!-- clearr -->
 
                 <!-- Our Event -->
-                <div class="pl-6 pt-56">
-                    <div>
-                        <div class="float-right pr-72 mt-24">
-                            <img  src="{{ asset('/assets/img/orang 1.svg') }}">
+                <div class="main-container pl-6 pt-56">
+                    <div class="grid grid-cols-1 gap-2">
+                        <div class="pl-6 pt-56">
+                            <div>
+                                <div class="float-right pr-96 mt-24">
+                                    <img  src="{{ asset('/assets/img/event.png') }}">
+                                </div>
+                            </div>
+                            <div class="font-semibold text-base text-red-600 py-4">
+                                <h2>Event Kami</h2>
+                            </div>
+                            <div class="font-bold text-3xl py-4">
+                                <h3>Bootcamp Offline Mobile App<br>Dev using Flutter & Dart</h3>
+                            </div>
+                            <div class="text-sm py-2">
+                                <p>Bootcamp Offline Mobile App Dev sudah dimulai.<br>Bootcamp berlangsung di My Office Coworking Space<br>Simpang Fatal, Palembang.</p>
+                            </div>
+                            <div class="text-sm py-9 pb-60">
+                                <button class="bg-transparent hover:bg-red-500 font-normal hover:text-white mt-5 h-8 px-8 border border-red-500 hover:border-transparent rounded-full">Lihat Event Lainnya</button></h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="font-semibold text-base text-red-600 py-4">
-                        <h2>Event Kami</h2>
-                    </div>
-                    <div class="font-bold text-3xl py-4">
-                        <h3>Bootcamp Offline Mobile App<br>Dev using Flutter & Dart</h3>
-                    </div>
-                    <div class="text-sm py-2">
-                        <p>Bootcamp Offline Mobile App Dev sudah dimulai.<br>Bootcamp berlangsung di My Office Coworking Space<br>Simpang Fatal, Palembang.</p>
-                    </div>
-                    <div class="text-sm py-9 pb-60">
-                        <button class="bg-transparent hover:bg-red-500 font-normal hover:text-white mt-5 h-8 px-8 border border-red-500 hover:border-transparent rounded-full">Lihat Event Lainnya</button></h3>
-                    </div>
                 </div>
+                
                 <!-- Our Event -->
 
                 <!-- Learning Path -->
