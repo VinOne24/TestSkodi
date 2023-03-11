@@ -111,7 +111,7 @@
                 </div>
 
                 <!-- What we make different -->
-                <div class="text-2xl font-bold flex justify-center py-16">
+                <div class="text-2xl font-bold flex justify-center py-16 pt-0">
                         <h3>Apa Yang membuat kami berbeda</h3>
                     </div>
 
@@ -191,8 +191,8 @@
                 <!-- clearr -->
 
                 <!-- Our Event -->
-                <div class="main-container pl-6 pt-56">
-                    <div class="grid grid-cols-1 gap-2">
+                <div class="main-container">
+                    <div class="grid grid-cols-1 gap-2 ">
                         <div class="pl-6 pt-56">
                             <div>
                                 <div class="float-right pr-96 mt-24">
