@@ -34,6 +34,26 @@
     width: 100%;
     height: auto;
 }
+
+/* css animasi */
+/* .diva:not(#diva) {
+    display: none;
+}
+
+.diva{
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: fowards;
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
 </style>
 
 <div class="py-12">
@@ -57,7 +77,7 @@
                 
 
                 <!-- 3 tombol -->
-                <div class="main_container py-9">
+                <div class="main_container py-9 pt-44">
                     <div class="text-2xl font-bold flex justify-center h-20">
                         <h3>Program dan kelas berdasarkan kemampuan</h3>
                     </div>
@@ -196,7 +216,7 @@
                 <!-- Our Event -->
                 <div class="container mx-auto sm:px-6 lg:px-8">
                     <div class="grid grid-cols-1 gap-2 ">
-                        <div class="pl-6 pt-56">
+                        <div class="pl-16 pt-44">
                             <div>
                                 <div class="float-right pr-96 mt-24">
                                     <img  src="{{ asset('/assets/img/event.png') }}">
@@ -212,7 +232,9 @@
                                 <p>Bootcamp Offline Mobile App Dev sudah dimulai.<br>Bootcamp berlangsung di My Office Coworking Space<br>Simpang Fatal, Palembang.</p>
                             </div>
                             <div class="text-sm py-9 pb-60">
-                                <button class="bg-transparent hover:bg-red-500 font-normal hover:text-white mt-5 h-8 px-8 border border-red-500 hover:border-transparent rounded-full">Lihat Event Lainnya</button></h3>
+                                <button class="bg-transparent hover:bg-red-500 font-normal hover:text-white mt-5 h-8 px-8 border border-red-500 hover:border-transparent rounded-full">
+                                    Lihat Event Lainnya
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -222,20 +244,19 @@
 
                 <!-- Learning Path -->
                 <div class="container mx-auto sm:px-6 lg:px-8">
-                    <div class="pl-6">
-                        <div class="font-semibold text-base text-green-400">
+                    <div class="pl-16 pt-8">
+                        <div class="font-semibold text-base text-green-400 py-4">
                             <p>Learning Path</p>
                         </div>
-                        <div class="font-semibold text-3xl">
+                        <div class="font-bold text-3xl py-4">
                             <p>Alur Belajar di Sekolah<br> Koding Indonesia</p>
                         </div>
-                        <div class="text-base text-base font-normal text-base">
-                            <div class="object-contain pr-12">
-                                Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
-                            </div>
+                        <div class="text-sm py-2">
+                            Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
+                            
                         </div>
                     </div>
-                    <div class="flex justify-center pt-3 pb-12">
+                    <div class="flex justify-center pt-12 pb-44">
                         <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
                     </div>
                 </div>
@@ -279,32 +300,35 @@
 </x-app-layout>
 
 <script>
-        var btn_diva = document.getElementById("btn_diva");
-        var btn_divb = document.getElementById("btn_divb");
-        var btn_divc = document.getElementById("btn_divc");
-        var diva = document.getElementById("diva");
-        var divb = document.getElementById("divb");
-        var divc = document.getElementById("divc");
-        btn_diva.addEventListener('click',()=>{
-            diva.style.display='block';
-            divb.style.display='none';
-            divc.style.display='none';
+    //Mendapatkan tombol dan kartu dengan id yang sesuai
+    var btn_diva = document.getElementById("btn_diva");
+    var btn_divb = document.getElementById("btn_divb");
+    var btn_divc = document.getElementById("btn_divc");
+    var diva = document.getElementById("diva");
+    var divb = document.getElementById("divb");
+    var divc = document.getElementById("divc");
 
-        });
+    //Menambahkan event listener untuk setiap tombol
+    btn_diva.addEventListener('click',()=>{
+        diva.style.display='block';
+        divb.style.display='none';
+        divc.style.display='none';
 
-        btn_divb.addEventListener('click',()=>{
-            diva.style.display='none';
-            divb.style.display='block';
-            divc.style.display='none';
+    });
 
-        });
-        btn_divc.addEventListener('click',()=>{
-            diva.style.display='none';
-            divb.style.display='none';
-            divc.style.display='block';
+    btn_divb.addEventListener('click',()=>{
+        diva.style.display='none';
+        divb.style.display='block';
+        divc.style.display='none';
 
-        });
-    </script>
+    });
+    btn_divc.addEventListener('click',()=>{
+        diva.style.display='none';
+        divb.style.display='none';
+        divc.style.display='block';
+
+    });
+</script>
 
 
 <!-- <script>
