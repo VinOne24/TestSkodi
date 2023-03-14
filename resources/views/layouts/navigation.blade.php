@@ -1,15 +1,15 @@
 <nav x-data="{ open: false }" class="bg-white fixed top-0 w-full dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 shadow-xl">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 shadow-sm">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center mx-36">
+                <div class="shrink-0 flex items-center mx-40 pr-24">
                     <a href="{{ route('dashboard') }}">
                     <img src="{{ asset('/assets/img/logo 1.png') }}" width="50" height="50" ;> 
                     </a>
                     <!-- dark mode -->
-                    <div class=" mx-14 ">
+                    <!-- <div class=" mx-14 ">
                         <button type="button" x-bind:class="darkMode ? 'bg-indigo-500' : 'bg-gray-200'"
                             x-on:click="darkMode = !darkMode"
                             class="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
@@ -39,7 +39,7 @@
                                 </span>
                             </span>
                         </button>
-                    </div>
+                    </div> -->
                     <!-- dark mode -->
 
                 </div>
