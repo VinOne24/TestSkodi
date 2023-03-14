@@ -19,6 +19,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::get('/dass', function () {
+//     return view('dass');
+// });
+Route::get('/dass', [SkodiController::class, 'dass'])->name('dass');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

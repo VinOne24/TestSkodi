@@ -40,6 +40,13 @@
         </div>
 
         <div class="flex items-center justify-end mt-4">
+        
+        <a href="/register">
+                <button class="mx-5 mb-4 bg-gray-800 hover:bg-gray-600 text-white font-medium mt-5 h-8 px-8 rounded-md">
+                Back
+                </button>
+                </a>
+
             <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('login') }}">
                 {{ __('Already registered?') }}
             </a>
