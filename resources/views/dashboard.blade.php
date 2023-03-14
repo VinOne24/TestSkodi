@@ -230,7 +230,7 @@
 
 
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center" >
-                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
@@ -266,7 +266,7 @@
                 </div>
 
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center py-16" >
-                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
@@ -308,7 +308,7 @@
                     <div class="grid grid-cols-1 gap-2 ">
                         <div class="pl-16 pt-44">
                             <div>
-                                <div class="float-right pr-96 mt-24">
+                                <div class="float-right pr-96 mt-24 ">
                                     <img  src="{{ asset('/assets/img/event.png') }}">
                                 </div>
                             </div>
@@ -377,10 +377,10 @@
 
                 <!-- What they say about us -->
                 <!-- Slideshow container -->
-                <div class="slideshow-container">
+                <div class="slideshow-container pt-12">
 
                     <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
+                <div class="mySlides ">
                 <div class="numbertext">1 / 3</div>
                 <img src="{{ asset('assets/img/bekron.jpg') }}" style="width:100%">
                 <div class="text">Caption Text</div>
@@ -510,6 +510,25 @@ function showSlides(n) {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
+}
+
+function padCard(){
+    let j;
+    let sld = document.getElementsByClassName('sSlides');
+    let tombol = document.getElementsByClassName('tombol');
+    if (n>sld.length){
+        sld = 1
+    }
+    if (n < 1){
+        sld = sld.length
+    }
+    for (j=0;j<sld.length, j++){
+        sld[j].style.display = "none";
+    }
+    for (j=0; j < tombol.length; j++){
+        tombol[j].className = tombol[j].className.replace('20px', "")
+    }
+    sld[]
 }
 </script>
 
