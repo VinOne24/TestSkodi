@@ -68,16 +68,17 @@
                         {{ __('Tentang') }}
                     </x-nav-link>
                 </div>
-                <button class="bg-transparent hover:bg-sky-600 text-sky-600 font-medium hover:text-white mt-5 h-8 mx-4 px-8 border border-sky-600 hover:border-transparent rounded-full">
-                    Daftar
-                </button>
-                <button class="bg-sky-600 hover:bg-sky-300 text-white font-medium mt-5 h-8 px-8 rounded-full">
-                    Masuk
-                </button>
+                
+                
             </div>
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6">
+            <a href="/dashboard">
+                <button class="bg-transparent hover:bg-sky-600 text-sky-600 font-medium hover:text-white mt-1 h-8 mx-4 px-8 border border-sky-600 hover:border-transparent rounded-full" align="right">
+                    Dashboard
+                </button>
+                </a>
                 <x-dropdown align="right" width="48">
                     <x-slot name="trigger">
                         <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
@@ -93,7 +94,7 @@
 
                     <x-slot name="content">
                         <x-dropdown-link :href="route('profile.edit')">
-                            {{ __('Profile') }}
+                            {{ __('Setting') }}
                         </x-dropdown-link>
 
                         <!-- Authentication -->
