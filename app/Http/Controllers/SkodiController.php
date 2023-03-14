@@ -20,4 +20,6 @@ class SkodiController extends Controller
     public function tentang(){
         return view('tentang');
     }
+
+
 }
