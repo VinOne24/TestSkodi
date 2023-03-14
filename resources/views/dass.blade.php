@@ -180,7 +180,7 @@
     <body class="max-w-full mx-auto ">
     <div class="py-12">
     <div class="max-w-full mx-auto sm:px-6 lg:px-8">
-        <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+        <div class="bg-white dark:bg-gray-800 overflow-hidden sm:rounded-lg">
             <div class="p-6 text-gray-900 dark:text-gray-100">
 
                 <!-- Atas -->
@@ -265,8 +265,8 @@
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-8" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-9 w-9 py-6 mx-2" >
+                                <img class="mx-8" src="{{ asset('/assets/img/u1.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7 px-auto">
                                 <h5 class="mx-8 py-1" >Mentor Berpengalaman </h5>
@@ -276,7 +276,7 @@
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                                <img class="mx-14" src="{{ asset('/assets/img/u2.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Persiapan Portofolio</h5>
@@ -285,8 +285,8 @@
                         </div>
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-7 w-7 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/u3.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Tugas dan Kuis</h5>
@@ -301,8 +301,8 @@
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-10 w-10 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/u4.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Akses Permanen</h5>
@@ -311,8 +311,8 @@
                         </div>
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-10 w-10 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/u5.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Kelas Offline dan Online</h5>
@@ -321,8 +321,8 @@
                         </div>
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-10 w-10 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/u6.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Sertifikat Resmi</h5>
@@ -419,7 +419,8 @@
         </div>
     </div>
 </div>
-    </body>
+</body>
+
     <footer class="bg-gradient-to-b from-yellow-50 to-yellow-100">
     <div class="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
         <div>
@@ -482,7 +483,7 @@
                 <span class="sr-only">GitHub account</span>
             </a>
         </div>
-        <span class="text-sm text-black-300 dark:text-gray-300 sm:text-center pr-16">© 2023 <a href="https://flowbite.com/">PT. Sekolah Koding Indonesia</a>. All Rights Reserved.
+        <span class="text-sm text-black-300 dark:text-gray-300 sm:text-center pr-16 hover:underline">© 2023 <a href="https://skodi.id/">PT. Sekolah Koding Indonesia</a>. All Rights Reserved.
         </span>
     </div>
 </footer>
