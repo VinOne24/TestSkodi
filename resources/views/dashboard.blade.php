@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
                 <!-- 3 tombol -->
                 <div class="main_container py-9 pt-44">
@@ -120,7 +120,7 @@
                         <!-- pro -->
                         <div class="divc" id="divc">
                             <div class="float-right object-contain h-80 w-80 mt-8">
-                                <img  src="{{ asset('/assets/img/pro.svg') }}">
+                                <img  src="{{ asset('/assets/img/pro.png') }}">
                             </div>
                             <div class="text-2xl font-bold py-9">
                                 <h5>Pro Coders</h5>
@@ -139,7 +139,7 @@
 
 
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center" >
-                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-40  w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-9 w-9 py-6 mx-2" >
@@ -175,7 +175,7 @@
                 </div>
 
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center py-16" >
-                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-40  w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-10 w-10 py-6 mx-2" >
@@ -239,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Our Event -->
 
                 <!-- Learning Path -->
@@ -253,14 +253,14 @@
                         </div>
                         <div class="text-sm py-2">
                             Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
-                            
+
                         </div>
                     </div>
                     <div class="flex justify-center pt-12 pb-44">
                         <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
                     </div>
                 </div>
-                
+
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
@@ -286,7 +286,7 @@
                 <!-- Coba aja dulu -->
 
                 <!-- What they say about us -->
-                    <!-- .... -->
+
                 <!-- What they say about us -->
 
                 <!-- Footer -->
