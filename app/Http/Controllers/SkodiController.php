@@ -13,4 +13,11 @@ class SkodiController extends Controller
     public function dass(){
         return view('dass');
     }
+    public function event(){
+        return view('event');
+    }
+
+    public function tentang(){
+        return view('tentang');
+    }
 }

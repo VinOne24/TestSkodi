@@ -24,6 +24,8 @@ Route::get('/welcome', function () {
 // });
 Route::get('/', [SkodiController::class, 'dass'])->name('dass');
 Route::get('/kelas', [SkodiController::class, 'kelas'])->name('kelas');
+Route::get('/event', [SkodiController::class, 'event'])->name('event');
+Route::get('/tentang', [SkodiController::class, 'tentang'])->name('tentang');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -33,13 +35,13 @@ Route::get('/dashboard', function () {
 //     return view('kelas');
 // })->middleware(['auth', 'verified'])->name('kelas');
 
-Route::get('/event', function () {
-    return view('event');
-})->middleware(['auth', 'verified'])->name('event');
+// Route::get('/event', function () {
+//     return view('event');
+// })->middleware(['auth', 'verified'])->name('event');
 
-Route::get('/tentang', function () {
-    return view('tentang');
-})->middleware(['auth', 'verified'])->name('tentang');
+// Route::get('/tentang', function () {
+//     return view('tentang');
+// })->middleware(['auth', 'verified'])->name('tentang');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
