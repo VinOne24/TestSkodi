@@ -79,7 +79,7 @@
                 <!-- 3 tombol -->
                 <div class="main_container py-9 pt-44">
                     <div class="text-2xl font-bold flex justify-center h-20">
-                        <h3>Program dan kelas berdasarkan kemampuan</h3>
+                        <h3>Program dan kelas yang tersedia</h3>
                     </div>
                     <div class="flex justify-beetwen bg-gray-50 text-sky-600 h-8 w-fit rounded-full" >
                         <button class="btn_kelas hover:bg-sky-200 font-medium h-8 px-20 rounded-full bg-sky-200" id="btn_diva">
@@ -102,31 +102,31 @@
                             <div class="text-2xl font-bold py-9">
                                 <h5>Coding For Kids</h5>
                                 <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programmer pemula yang akan<br> belajar pemrograman dasar untuk jenjang<br> pendidikan SD usia 5-10 Tahun.
-                                <button class="bg-transparent hover:bg-blue-500 text-sky-600 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
+                                <button class="bg-transparent hover:bg-blue-500 text-sky-600 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Info lebih lanjut</button></h3>
                             </div>
                         </div>
 
                         <!-- junior -->
                         <div class="divb" id="divb">
                             <div class="float-right object-contain h-80 w-80 mt-8">
-                                <img  src="{{ asset('/assets/img/orang.png') }}">
+                                <img  src="{{ asset('/assets/img/junior.png') }}">
                             </div>
                             <div class="text-2xl font-bold py-9">
                                 <h5>Junior Coders</h5>
                                 <h3 class="text-base font-light py-4 leading-relaxed">Program untuk belajar algoritma dan pemrograman<br> tingkat menengah untuk anak SMP dan SMA <br>usia 13 sampai 18 Tahun.<br>
-                                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
+                                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Info lebih lanjut</button></h3>
                             </div>
                         </div>
 
                         <!-- pro -->
                         <div class="divc" id="divc">
                             <div class="float-right object-contain h-80 w-80 mt-8">
-                                <img  src="{{ asset('/assets/img/orang 2.svg') }}">
+                                <img  src="{{ asset('/assets/img/pro.svg') }}">
                             </div>
                             <div class="text-2xl font-bold py-9">
                                 <h5>Pro Coders</h5>
                                 <h3 class="text-base font-light py-4 leading-relaxed">Program untuk belajar algoritma dan pemrograman<br> tingkat atas guna persiapan diri dalam<br> dunia kerja professional.<br>
-                                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
+                                <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Info lebih lanjut</button></h3>
                             </div>
                         </div>
 
@@ -143,8 +143,8 @@
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-8" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-9 w-9 py-6 mx-2" >
+                                <img class="mx-8" src="{{ asset('/assets/img/u1.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7 px-auto">
                                 <h5 class="mx-8 py-1" >Mentor Berpengalaman </h5>
@@ -154,7 +154,7 @@
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                                <img class="mx-14" src="{{ asset('/assets/img/u2.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Persiapan Portofolio</h5>
@@ -163,8 +163,8 @@
                         </div>
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-7 w-7 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/u3.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Tugas dan Kuis</h5>
@@ -179,8 +179,8 @@
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-10 w-10 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/u4.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Akses Permanen</h5>
@@ -189,8 +189,8 @@
                         </div>
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-10 w-10 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/u5.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Kelas Offline dan Online</h5>
@@ -199,8 +199,8 @@
                         </div>
 
                         <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
-                            <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                            <div class="float-left h-10 w-10 py-6 mx-2" >
+                                <img class="mx-14" src="{{ asset('/assets/img/u6.png') }}">
                             </div>
                             <div class="text-1xl font-bold py-7">
                                 <h5 class="mx-14 py-1" >Sertifikat Resmi</h5>
