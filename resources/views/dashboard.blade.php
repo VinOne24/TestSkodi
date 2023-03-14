@@ -34,6 +34,26 @@
     width: 100%;
     height: auto;
 }
+
+/* css animasi */
+/* .diva:not(#diva) {
+    display: none;
+}
+
+.diva{
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: fowards;
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
 </style>
 
 <div class="py-12">
@@ -42,30 +62,33 @@
             <div class="p-6 text-gray-900 dark:text-gray-100">
 
                 <!-- Atas -->
-                <div class="grid grid-cols-2 gap-2">
-                    <div class="float-left ml-20 py-9">
-                    <img  src="{{ asset('/assets/img/orang.png') }}">
-                    </div>
-                    <div class="text-4xl font-bold py-9 leading-snug">
-                        <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
-                        <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan
-                        <span><h3 class="text-base font-bold ">#digitalisasibangsa</h3></span></h3>
+                <div class="container mx-auto sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-2 gap-2">
+                        <div class="float-left ml-20 py-9">
+                        <img  src="{{ asset('/assets/img/orang.png') }}">
+                        </div>
+                        <div class="text-4xl font-bold py-9 leading-snug">
+                            <h5>Naikkan potensi digital <br>skill untuk masa depan <br>lebih baik</br></h5>
+                            <h3 class="text-base font-light py-9 leading-normal">Tingkatkan kemampuan digital kamu untuk <br>Indonesia mulai gerakan
+                            <span><h3 class="text-base font-bold ">#digitalisasibangsa</h3></span></h3>
+                        </div>
                     </div>
                 </div>
+                
 
                 <!-- 3 tombol -->
-                <div class="main_container py-9">
+                <div class="main_container py-9 pt-44">
                     <div class="text-2xl font-bold flex justify-center h-20">
                         <h3>Program dan kelas berdasarkan kemampuan</h3>
                     </div>
                     <div class="flex justify-between bg-gray-50 shadow-xl text-sky-600 h-8 rounded-full" >
-                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_diva">
+                        <button class="btn_kelas hover:bg-sky-200 font-medium h-8 px-20 rounded-full bg-sky-200" id="btn_diva">
                             Kids
                         </button>
-                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divb">
+                        <button class="btn_kelas hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divb">
                             Junior
                         </button>
-                        <button class="bg-transparent hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divc">
+                        <button class="btn_kelas hover:bg-sky-200 font-medium h-8 px-20 rounded-full" id="btn_divc">
                             Professional
                         </button>
                     </div>
@@ -111,7 +134,7 @@
                 </div>
 
                 <!-- What we make different -->
-                <div class="text-2xl font-bold flex justify-center py-16">
+                <div class="text-2xl font-bold flex justify-center py-16 pt-0">
                         <h3>Apa Yang membuat kami berbeda</h3>
                     </div>
 
@@ -121,11 +144,11 @@
 
                         <div class="flex justify-start bg-sky-200  h-36 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
-                                <img class="mx-14" src="{{ asset('/assets/img/orang.png') }}">
+                                <img class="mx-8" src="{{ asset('/assets/img/orang.png') }}">
                             </div>
-                            <div class="text-1xl font-bold py-7">
-                                <h5 class="mx-14 py-1" >Mentor Berpengalaman </h5>
-                                <h3 class="text-sm py-2 font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
+                            <div class="text-1xl font-bold py-7 px-auto">
+                                <h5 class="mx-8 py-1" >Mentor Berpengalaman </h5>
+                                <h3 class="text-sm mx-2 py-2 font-light leading-normal">kamu akan dilatih oleh mentor yang ramah<br>dan berpengalaman di bidangnya</h3>
                             </div>
                         </div>
 
@@ -191,30 +214,53 @@
                 <!-- clearr -->
 
                 <!-- Our Event -->
-                <div>
-                    <h2>Event Kami</h2>
-                    <h3>Bootcamp Offline Mobile App<br>Dev using Flutter & Dart</h3>
-                    <p></p>
-                </div>
-                <!-- Our Event -->
-
-                <!-- Learning Path -->
-                <div class="pl-6">
-                    <div class="font-semibold text-base text-green-400">
-                        <p>Learning Path</p>
-                    </div>
-                    <div class="font-semibold text-3xl">
-                        <p>Alur Belajar di Sekolah<br> Koding Indonesia</p>
-                    </div>
-                    <div class="text-base text-base font-normal text-base">
-                        <div class="object-contain pr-12">
-                            Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
+                <div class="container mx-auto sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-1 gap-2 ">
+                        <div class="pl-16 pt-44">
+                            <div>
+                                <div class="float-right pr-96 mt-24">
+                                    <img  src="{{ asset('/assets/img/event.png') }}">
+                                </div>
+                            </div>
+                            <div class="font-semibold text-base text-red-600 py-4">
+                                <h2>Event Kami</h2>
+                            </div>
+                            <div class="font-bold text-3xl py-4">
+                                <h3>Bootcamp Offline Mobile App<br>Dev using Flutter & Dart</h3>
+                            </div>
+                            <div class="text-sm py-2">
+                                <p>Bootcamp Offline Mobile App Dev sudah dimulai.<br>Bootcamp berlangsung di My Office Coworking Space<br>Simpang Fatal, Palembang.</p>
+                            </div>
+                            <div class="text-sm py-9 pb-60">
+                                <button class="bg-transparent hover:bg-red-500 font-normal hover:text-white mt-5 h-8 px-8 border border-red-500 hover:border-transparent rounded-full">
+                                    Lihat Event Lainnya
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-center pt-3 pb-12">
-                    <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
+                
+                <!-- Our Event -->
+
+                <!-- Learning Path -->
+                <div class="container mx-auto sm:px-6 lg:px-8">
+                    <div class="pl-16 pt-8">
+                        <div class="font-semibold text-base text-green-400 py-4">
+                            <p>Learning Path</p>
+                        </div>
+                        <div class="font-bold text-3xl py-4">
+                            <p>Alur Belajar di Sekolah<br> Koding Indonesia</p>
+                        </div>
+                        <div class="text-sm py-2">
+                            Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
+                            
+                        </div>
+                    </div>
+                    <div class="flex justify-center pt-12 pb-44">
+                        <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
+                    </div>
                 </div>
+                
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
@@ -254,32 +300,62 @@
 </x-app-layout>
 
 <script>
-        var btn_diva = document.getElementById("btn_diva");
-        var btn_divb = document.getElementById("btn_divb");
-        var btn_divc = document.getElementById("btn_divc");
-        var diva = document.getElementById("diva");
-        var divb = document.getElementById("divb");
-        var divc = document.getElementById("divc");
-        btn_diva.addEventListener('click',()=>{
-            diva.style.display='block';
-            divb.style.display='none';
-            divc.style.display='none';
+    //Mendapatkan tombol dan kartu dengan id yang sesuai
+    var btn_diva = document.getElementById("btn_diva");
+    var btn_divb = document.getElementById("btn_divb");
+    var btn_divc = document.getElementById("btn_divc");
+    var diva = document.getElementById("diva");
+    var divb = document.getElementById("divb");
+    var divc = document.getElementById("divc");
 
-        });
+    //Menambahkan event listener untuk setiap tombol
+    btn_diva.addEventListener('click',(e)=>{
+        diva.style.display='block';
+        divb.style.display='none';
+        divc.style.display='none';
+        activeBtnClass(e.target.id);
 
-        btn_divb.addEventListener('click',()=>{
-            diva.style.display='none';
-            divb.style.display='block';
-            divc.style.display='none';
+    });
 
-        });
-        btn_divc.addEventListener('click',()=>{
-            diva.style.display='none';
-            divb.style.display='none';
-            divc.style.display='block';
+    btn_divb.addEventListener('click',(e)=>{
+        diva.style.display='none';
+        divb.style.display='block';
+        divc.style.display='none';
 
-        });
-    </script>
+        activeBtnClass(e.target.id);
+
+        // btn_diva.classList.remove('bg-sky-300');
+        // btn_divb.classList.add('bg-sky-300');
+        // btn_divc.classList.remove('bg-sky-300');
+
+    });
+    btn_divc.addEventListener('click',(e)=>{
+        diva.style.display='none';
+        divb.style.display='none';
+        divc.style.display='block';
+
+        activeBtnClass(e.target.id);
+
+        // btn_diva.classList.remove('bg-sky-300');
+        // btn_divb.classList.remove('bg-sky-300');
+        // btn_divc.classList.add('bg-sky-300');
+
+    });
+
+    const activeBtnClass = (id=null) => {
+        let btnClass = document.querySelectorAll(".btn_kelas");
+        btnClass.forEach((i) => {
+            console.log(i.id);
+            if(i.id ==id){
+                let div_btn = document.getElementById(i.id);
+                div_btn.classList.add('bg-sky-200');
+            }else {
+                let div_btn = document.getElementById(i.id);
+                div_btn.classList.remove('bg-sky-200');
+            }
+        })
+    }
+</script>
 
 
 <!-- <script>
