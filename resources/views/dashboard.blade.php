@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
                 <!-- 3 tombol -->
                 <div class="main_container py-9 pt-44">
@@ -239,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Our Event -->
 
                 <!-- Learning Path -->
@@ -253,14 +253,14 @@
                         </div>
                         <div class="text-sm py-2">
                             Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
-                            
+
                         </div>
                     </div>
                     <div class="flex justify-center pt-12 pb-44">
                         <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
                     </div>
                 </div>
-                
+
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
