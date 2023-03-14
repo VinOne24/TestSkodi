@@ -9,7 +9,7 @@
                         <div class="float-left ml-20 py-9">
                         <img  src="{{ asset('/assets/img/orang.png') }}">
                         </div>
-                        <div class="text-4xl font-bold py-9 leading-snug">
+                        <div class="text-4xl py-9 leading-snug">
                             <h5 class="">Daftar Akun SKODI </h5>
 
                             <form method="POST" action="{{ route('login') }}" class="w-96 mt-8">

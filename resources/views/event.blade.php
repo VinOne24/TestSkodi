@@ -14,7 +14,6 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans text-gray-900 ">
 
     <header class="bg-white dark:bg-gray-800 shadow" >
     <nav class="bg-white fixed top-0 w-full dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
@@ -118,16 +117,20 @@
 </nav>
 
 </header>
-        <div class="">
-            <div>
-                <a href="/">
-                    
-                </a>
-            </div>
 
-            <div class="">
-                {{ $slot }}
+
+    <body class="max-w-full mx-auto ">
+    
+    <div class="py-12">
+    <div class="max-w-full mx-auto sm:px-6 lg:px-8">
+        <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+            <div class="p-6 text-gray-900 dark:text-gray-100">
+
+            Ini Event
+                
             </div>
         </div>
+    </div>
+
     </body>
 </html>
