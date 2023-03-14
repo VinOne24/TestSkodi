@@ -1,5 +1,95 @@
 <x-app-layout>
 <style>
+/* slide */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* end slide */
+
     .main_container{
     margin: 15px auto;
     width: 700px;
@@ -74,7 +164,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
                 <!-- 3 tombol -->
                 <div class="main_container py-9 pt-44">
@@ -239,7 +329,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Our Event -->
 
                 <!-- Learning Path -->
@@ -253,18 +343,18 @@
                         </div>
                         <div class="text-sm py-2">
                             Alur belajar atau yang biasa disebut Learning Path adalah rencana yang membantu menyusun<br> perjalanan pembelajaran. Sekolah Koding Indonesia sendiri sudah menerapkan Alur Belajar dalam<br> proses pembelajaran sehingga pelajar dapat mengetahui uraian apa yang akan dipelajari, kapan <br> pembelajarannya hingga bagaimana melakukannya.
-                            
+
                         </div>
                     </div>
                     <div class="flex justify-center pt-12 pb-44">
                         <img class="object-fill" src="{{asset('/assets/img/path.svg')}}" alt="">
                     </div>
                 </div>
-                
+
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
-                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-start drop-shadow-xl bg-gray-200" >
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-start shadow-xl bg-gray-200" >
                     <div class=" flex justify-start ">
 
                     <div class="grid grid-cols-2 gap-2">
@@ -286,7 +376,40 @@
                 <!-- Coba aja dulu -->
 
                 <!-- What they say about us -->
-                    <!-- .... -->
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="{{ asset('assets/img/bekron.jpg') }}" style="width:100%">
+                <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="{{ asset('assets/img/orang 1.svg') }}" style="width:100%">
+                <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="{{ asset('assets/img/bekron.jpg') }}" style="width:100%">
+                <div class="text">Caption Three</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
                 <!-- What they say about us -->
 
                 <!-- Footer -->
@@ -355,6 +478,39 @@
             }
         })
     }
+
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+        sldeIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+}
 </script>
 
 
