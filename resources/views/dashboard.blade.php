@@ -120,7 +120,7 @@
                         <!-- pro -->
                         <div class="divc" id="divc">
                             <div class="float-right object-contain h-80 w-80 mt-8">
-                                <img  src="{{ asset('/assets/img/pro.svg') }}">
+                                <img  src="{{ asset('/assets/img/pro.png') }}">
                             </div>
                             <div class="text-2xl font-bold py-9">
                                 <h5>Pro Coders</h5>
