@@ -78,7 +78,7 @@
                             </div>
                             <div class="text-2xl font-bold py-9">
                                 <h5>Coding For Kids</h5>
-                                <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                                <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programmer pemula yang akan<br> belajar pemrograman dasar untuk jenjang<br> pendidikan SD usia 5-10 Tahun.
                                 <button class="bg-transparent hover:bg-blue-500 text-sky-600 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
                             </div>
                         </div>
@@ -89,8 +89,8 @@
                                 <img  src="{{ asset('/assets/img/orang.png') }}">
                             </div>
                             <div class="text-2xl font-bold py-9">
-                                <h5>Coding For Junior</h5>
-                                <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                                <h5>Junior Coders</h5>
+                                <h3 class="text-base font-light py-4 leading-relaxed">Program untuk belajar algoritma dan pemrograman<br> tingkat menengah untuk anak SMP dan SMA <br>usia 13 sampai 18 Tahun.<br>
                                 <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
                             </div>
                         </div>
@@ -101,8 +101,8 @@
                                 <img  src="{{ asset('/assets/img/orang 2.svg') }}">
                             </div>
                             <div class="text-2xl font-bold py-9">
-                                <h5>Coding For Pro</h5>
-                                <h3 class="text-base font-light py-4 leading-relaxed">Program untuk programer pemula yang akan<br>belajar pemprograman dasar untuk jenjang<br>pendidikan SD usia 5-10 Tahun.
+                                <h5>Pro Coders</h5>
+                                <h3 class="text-base font-light py-4 leading-relaxed">Program untuk belajar algoritma dan pemrograman<br> tingkat atas guna persiapan diri dalam<br> dunia kerja professional.<br>
                                 <button class="bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white mt-5 h-8 px-8 border border-blue-500 hover:border-transparent rounded-full">Daftar sekarang</button></h3>
                             </div>
                         </div>
