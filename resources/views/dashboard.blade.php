@@ -139,7 +139,7 @@
 
 
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center" >
-                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-40  w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-9 w-9 py-6 mx-2" >
@@ -175,7 +175,7 @@
                 </div>
 
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center py-16" >
-                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
+                    <div class="grid gap-x-20 gap-y-4 grid-cols-3 justify-start ">
 
                         <div class="flex justify-start bg-sky-200  h-40  w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-10 w-10 py-6 mx-2" >
@@ -285,7 +285,7 @@
                 <!-- Coba aja dulu -->
 
                 <!-- What they say about us -->
-                    <!-- .... -->
+
                 <!-- What they say about us -->
 
                 <!-- Footer -->
