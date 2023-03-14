@@ -264,7 +264,7 @@
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
-                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-start drop-shadow-xl bg-gray-200" >
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-start shadow-xl bg-gray-200" >
                     <div class=" flex justify-start ">
 
                     <div class="grid grid-cols-2 gap-2">
@@ -301,7 +301,7 @@
 
 
 <footer class="bg-gradient-to-b from-yellow-50 to-yellow-100">
-    <div class="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4 border-b-2">
+    <div class="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
         <div>
             <h2 class="mb-6 px-12 text-sm font-semibold text-black-600">Tentang</h2>
             <p class="mb-12 pl-12 text-sm font-light text-black-300 ">SKODI adalah platform pembelajaran<br>Online dan Offline yang bertujuan untuk<br>menghasilkan jenius coders di seluruh<br>Indonesia.</p>
