@@ -23,14 +23,15 @@ Route::get('/welcome', function () {
 //     return view('dass');
 // });
 Route::get('/', [SkodiController::class, 'dass'])->name('dass');
+Route::get('/kelas', [SkodiController::class, 'kelas'])->name('kelas');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/kelas', function () {
-    return view('kelas');
-})->middleware(['auth', 'verified'])->name('kelas');
+// Route::get('/kelas', function () {
+//     return view('kelas');
+// })->middleware(['auth', 'verified'])->name('kelas');
 
 Route::get('/event', function () {
     return view('event');

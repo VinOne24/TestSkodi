@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class SkodiController extends Controller
 {
     public function kelas(){
-        return('kelas');
+        return view('kelas');
     }
 
     public function dass(){
