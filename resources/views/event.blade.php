@@ -18,7 +18,7 @@
     <header class="bg-white dark:bg-gray-800 shadow" >
         <nav class="bg-white fixed top-0 w-full dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
             <!-- Primary Navigation Menu -->
-            <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 shadow-sm">
+            <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 shadow-md">
                 <div class="flex justify-between h-16">
                     <div class="flex">
                         <!-- Logo -->
@@ -155,10 +155,10 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
 
                     
-                    <!--  -->
+                    
                     <form>
-                    Urut berdasarkan
-                        <div class="flex">
+                    <!-- Urut berdasarkan -->
+                        <div class="flex mt-24">
                             <label for="search-dropdown" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Your Email</label>
                                 <button id="dropdown-button" data-dropdown-toggle="dropdown" class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-l-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600" type="button">Event Terbaru <svg aria-hidden="true" class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
                             <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
@@ -186,6 +186,84 @@
                             </div>
                         </div>
                     </form>
+
+                    <!-- Card -->
+
+                    <div class="grid grid-cols-3 gap-4 py-24">
+                        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                            <!-- 1 -->
+                            <a href="/dashboard">
+                                <img class="rounded-lg p-2" src="{{ asset('/assets/img/events.png') }}" />
+                            </a>
+                            <div class="p-5">
+                                <a href="#">
+                                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Bootcamp Offline Mobile<br>App Dev using Flutter &<br>Dart</h5>
+                                </a>
+                                <p class="mb-3 font-sm text-gray-500 dark:text-gray-400">Oleh : Tim Skodi Bootcamp</p>
+                                <a href="/dashboard" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    Bootcamp
+                                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                            <div class="px-4 py-6 bg-gradient-to-b from-gray-200 to-gray-50 md:flex md:items-center md:justify-between">
+                                Sisa Kuota:40
+                                <img class="h-5 w-5" src="{{ asset('/assets/img/u3.png') }}" />
+                            </div>
+
+                        </div>
+
+                        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                            <!-- 2 -->
+                            <a href="/dashboard">
+                                <img class="rounded-lg p-2" src="{{ asset('/assets/img/events.png') }}" />
+                            </a>
+                            <div class="p-5">
+                                <a href="#">
+                                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Bootcamp Offline Mobile<br>App Dev using Flutter &<br>Dart</h5>
+                                </a>
+                                <p class="mb-3 font-sm text-gray-500 dark:text-gray-400">Oleh : Tim Skodi Bootcamp</p>
+                                <a href="/dashboard" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    Bootcamp
+                                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                            <div class="px-4 py-6 bg-gradient-to-b from-gray-200 to-gray-50 md:flex md:items-center md:justify-between">
+                                Sisa Kuota:40
+                                <img class="h-5 w-5" src="{{ asset('/assets/img/u3.png') }}" />
+                            </div>
+
+                        </div>
+
+                        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                            <!-- 3 -->
+                            <a href="/dashboard">
+                                <img class="rounded-lg p-2" src="{{ asset('/assets/img/events.png') }}" />
+                            </a>
+                            <div class="p-5">
+                                <a href="#">
+                                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Bootcamp Offline Mobile<br>App Dev using Flutter &<br>Dart</h5>
+                                </a>
+                                <p class="mb-3 font-sm text-gray-500 dark:text-gray-400">Oleh : Tim Skodi Bootcamp</p>
+                                <a href="/dashboard" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    Bootcamp
+                                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                            <div class="px-4 py-6 bg-gradient-to-b from-gray-200 to-gray-50 md:flex md:items-center md:justify-between">
+                                Sisa Kuota:40
+                                <img class="h-5 w-5" src="{{ asset('/assets/img/u3.png') }}" />
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+
+
+                    <!-- image rounded -->
+                    <!-- <div class="bg-cyan-300">
+                        <img class="object-cover h-48 w-48 rounded-full" src="{{ asset('/assets/img/main.jpeg') }}">
+                    </div> -->
                     <!--  -->
 
                 
@@ -195,7 +273,7 @@
     </div>
 </body>
 
-<footer class="bg-gradient-to-b from-slate-50 to-slate-100 mt-96 px-12">
+<footer class="bg-gradient-to-b from-slate-50 to-slate-100 mt-56 px-12">
     <div class="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
         <div>
             <h2 class="mb-6 px-12 text-sm font-semibold text-black-600">Tentang</h2>
