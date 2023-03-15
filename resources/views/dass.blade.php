@@ -75,16 +75,16 @@
     <header class="bg-white dark:bg-gray-800 shadow" >
     <nav class="bg-white fixed top-0 w-full dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 shadow-xl">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 shadow-md">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center mx-36">
+                <div class="shrink-0 flex items-center mx-40 pr-36">
                     <a href="{{ route('dashboard') }}">
                     <img src="{{ asset('/assets/img/logo 1.png') }}" width="50" height="50" ;> 
                     </a>
                     <!-- dark mode -->
-                    <div class=" mx-14 ">
+                    <!-- <div class=" mx-14 ">
                         <button type="button" x-bind:class="darkMode ? 'bg-indigo-500' : 'bg-gray-200'"
                             x-on:click="darkMode = !darkMode"
                             class="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
@@ -114,7 +114,7 @@
                                 </span>
                             </span>
                         </button>
-                    </div>
+                    </div> -->
                     <!-- dark mode -->
 
                 </div>
@@ -180,7 +180,7 @@
     <body class="max-w-full mx-auto ">
     <div class="py-12">
     <div class="max-w-full mx-auto sm:px-6 lg:px-8">
-        <div class="bg-white dark:bg-gray-800 overflow-hidden sm:rounded-lg">
+        <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
             <div class="p-6 text-gray-900 dark:text-gray-100">
 
                 <!-- Atas -->
@@ -264,7 +264,7 @@
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center" >
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
-                        <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
+                        <div class="flex justify-start bg-sky-200 h-40 w-96 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-9 w-9 py-6 mx-2" >
                                 <img class="mx-8" src="{{ asset('/assets/img/u1.png') }}">
                             </div>
@@ -274,7 +274,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
+                        <div class="flex justify-start bg-sky-200 h-40 w-96 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/u2.png') }}">
                             </div>
@@ -284,7 +284,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
+                        <div class="flex justify-start bg-sky-200 h-40 w-96 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-7 w-7 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/u3.png') }}">
                             </div>
@@ -300,7 +300,7 @@
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center py-16" >
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 flex justify-start ">
 
-                        <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
+                        <div class="flex justify-start bg-sky-200 h-40 w-96 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-10 w-10 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/u4.png') }}">
                             </div>
@@ -310,7 +310,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
+                        <div class="flex justify-start bg-sky-200 h-40 w-96 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-10 w-10 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/u5.png') }}">
                             </div>
@@ -320,7 +320,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-40 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
+                        <div class="flex justify-start bg-sky-200 h-40 w-96 bg-gradient-to-tr from-cyan-200 to-sky-200 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-10 w-10 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/u6.png') }}">
                             </div>
@@ -367,7 +367,7 @@
                 <!-- Learning Path -->
                 <div class="container mx-auto sm:px-6 lg:px-8">
                     <div class="pl-16 pt-8">
-                        <div class="font-semibold text-base text-green-400 py-4">
+                        <div class="font-semibold text-base text-green-600 py-4">
                             <p>Learning Path</p>
                         </div>
                         <div class="font-bold text-3xl py-4">
@@ -386,7 +386,7 @@
                 <!-- Learning Path -->
 
                 <!-- Coba aja dulu -->
-                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-start shadow-xl bg-gray-200 rounded-lg" >
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-start shadow-lg bg-gray-100" >
                     <div class=" flex justify-start ">
 
                     <div class="grid grid-cols-2 gap-2">

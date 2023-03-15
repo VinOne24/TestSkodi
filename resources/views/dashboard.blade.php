@@ -151,7 +151,7 @@
                             </div>
                         </div>
 
-                        <div class="flex justify-start bg-sky-200  h-40  w-96 rounded-2xl shadow-xl">
+                        <div class="flex justify-start bg-sky-200 h-40 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-12 w-12 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/u2.png') }}">
                             </div>
@@ -177,7 +177,7 @@
                 <div class="max-w-full mx-auto sm:px-6 lg:px-8 flex justify-center py-16" >
                     <div class="grid gap-x-20 gap-y-4 grid-cols-3 justify-start ">
 
-                        <div class="flex justify-start bg-sky-200  h-40  w-96 rounded-2xl shadow-xl">
+                        <div class="flex justify-start bg-sky-200 h-40 w-96 rounded-2xl shadow-xl">
                             <div class="float-left h-10 w-10 py-6 mx-2" >
                                 <img class="mx-14" src="{{ asset('/assets/img/u4.png') }}">
                             </div>
@@ -245,7 +245,7 @@
                 <!-- Learning Path -->
                 <div class="container mx-auto sm:px-6 lg:px-8">
                     <div class="pl-16 pt-8">
-                        <div class="font-semibold text-base text-green-400 py-4">
+                        <div class="font-semibold text-base text-green-600 py-4">
                             <p>Learning Path</p>
                         </div>
                         <div class="font-bold text-3xl py-4">
