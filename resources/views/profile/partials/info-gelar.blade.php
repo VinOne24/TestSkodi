@@ -78,10 +78,16 @@
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
+                                    <img  src="{{ asset('/assets/img/junior.png') }}">
+                                </div>
+                                <div class="float-left object-contain h-20 w-20 mt-8">
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
+                                </div>
+                                <div class="float-left object-contain h-20 w-20 mt-8">
+                                    <img  src="{{ asset('/assets/img/junior.png') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
@@ -96,7 +102,7 @@
                         <div class="divb" id="divb">
                         <div class="h-56 grid grid-cols-6 gap-4 content-start">
                                 <div class="float-left object-contain h-20 w-20 mt-8">
-                                    <img  src="{{ asset('/assets/img/orang 1.svg') }}">
+                                    <img  src="{{ asset('/assets/img/junior.png') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
@@ -108,10 +114,16 @@
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
+                                    <img  src="{{ asset('/assets/img/junior.png') }}">
+                                </div>
+                                <div class="float-left object-contain h-20 w-20 mt-8">
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
+                                </div>
+                                <div class="float-left object-contain h-20 w-20 mt-8">
+                                    <img  src="{{ asset('/assets/img/junior.png') }}">
                                 </div>
                             </div>
                         </div>
@@ -128,13 +140,19 @@
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
-                                    <img  src="{{ asset('/assets/img/orang 1.svg') }}">
+                                    <img  src="{{ asset('/assets/img/junior.png') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
                                 </div>
                                 <div class="float-left object-contain h-20 w-20 mt-8">
                                     <img  src="{{ asset('/assets/img/orang 1.svg') }}">
+                                </div>
+                                <div class="float-left object-contain h-20 w-20 mt-8">
+                                    <img  src="{{ asset('/assets/img/orang 1.svg') }}">
+                                </div>
+                                <div class="float-left object-contain h-20 w-20 mt-8">
+                                    <img  src="{{ asset('/assets/img/junior.png') }}">
                                 </div>
                             </div>
                         </div>
