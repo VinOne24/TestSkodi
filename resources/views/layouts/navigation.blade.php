@@ -97,15 +97,10 @@
                     </x-dropdown-link>
 
                     <!-- Authentication -->
+                    <x-slot name="content">
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
 
-                        <x-dropdown-link :href="route('logout')"
-                                onclick="event.preventDefault();
-                                            this.closest('form').submit();">
-                            {{ __('Log Out') }}
-                    <x-slot name="content">
-                    
                     <x-dropdown-link :href="route('profile.info')">
                             {{ __('Profile') }}
                         </x-dropdown-link>
@@ -113,6 +108,12 @@
                         <x-dropdown-link :href="route('profile.edit')">
                             {{ __('Setting') }}
                         </x-dropdown-link>
+
+                        <x-dropdown-link :href="route('logout')"
+                            onclick="event.preventDefault();
+                            this.closest('form').submit();">
+                            {{ __('Log Out') }}
+                            </x-dropdown-link>
                     </form>
                 </x-slot>
             </x-dropdown>
