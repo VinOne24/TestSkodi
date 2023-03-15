@@ -91,8 +91,6 @@
                         </div>
                     </button>
                 </x-slot>
-
-<<<<<<< Updated upstream
                 <x-slot name="content">
                     <x-dropdown-link :href="route('profile.edit')">
                         {{ __('Setting') }}
@@ -106,7 +104,6 @@
                                 onclick="event.preventDefault();
                                             this.closest('form').submit();">
                             {{ __('Log Out') }}
-=======
                     <x-slot name="content">
                     
                     <x-dropdown-link :href="route('profile.info')">
@@ -115,7 +112,6 @@
 
                         <x-dropdown-link :href="route('profile.edit')">
                             {{ __('Setting') }}
->>>>>>> Stashed changes
                         </x-dropdown-link>
                     </form>
                 </x-slot>
